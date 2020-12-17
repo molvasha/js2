@@ -13,10 +13,6 @@ const renderProduct = (title='товар', price=0) => {
             </div>`
 };
 const renderPage = list => {
-//     const productsList = list.map(item => renderProduct(item.title, item.price));
-//     //console.log(productsList);
-//     document.querySelector('.products').innerHTML = productsList;
-// };
     list.forEach(function (item) {
     document.querySelector('.products').innerHTML += renderProduct(item.title, item.price)
   })
