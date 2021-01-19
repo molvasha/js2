@@ -7,6 +7,7 @@ Vue.component('products', {
                 :product="item"></product>
                </div>`
 });
+
 Vue.component('product', {
   props: ['product', 'img'],
   template: `

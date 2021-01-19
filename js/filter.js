@@ -4,6 +4,7 @@ Vue.component ('filtered',{
       userSearch: ''
     }
   },
+
   template:
     `
     <form action="#" class="search-form"  @submit.prevent='$parent.filter(userSearch)'>
