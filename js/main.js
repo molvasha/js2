@@ -13,6 +13,8 @@ const app = new Vue({
     imgCart: 'https://placehold.it/50x100',
     cartUrl: '/getBasket.json',
   },
+
+
   methods: {
     getJson(url) {
       return fetch(url)
